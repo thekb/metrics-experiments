@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "crates/metrics-log-cli",
+    "crates/metrics-log-core",
+    "crates/metrics-log-fs",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/thekb/metrics-experiments"
+
